@@ -1,3 +1,4 @@
+import Generics.Pair;
 import Graph.BFS;
 import Graph.DFS;
 import Graph.ShortestPathAlgo.BellmanFord;
@@ -38,10 +39,12 @@ public class Client {
 //        BellmanFord bellmanFord = new BellmanFord(edges, 7);
 //        System.out.println(bellmanFord.bellmanFord(1));
 
-        List<Integer> arr = List.of(2, 3, 5, 1, 2 , 1, 0);
-        ExecutorService executorService = Executors.newFixedThreadPool(100);
-        Sorter sorter = new Sorter(arr, executorService);
-        List<Integer> sorted = sorter.call();
-        System.out.println(sorted);
+//        List<Integer> arr = List.of(2, 3, 5, 1, 2 , 1, 0);
+//        ExecutorService executorService = Executors.newFixedThreadPool(100);
+//        Sorter sorter = new Sorter(arr, executorService);
+//        List<Integer> sorted = sorter.call();
+//        System.out.println(sorted);
+
+        Pair<Integer, String > pair = new Pair<>();
     }
 }
